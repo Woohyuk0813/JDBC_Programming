@@ -2,7 +2,6 @@ package jdbc_boards.Contoller;
 
 import jdbc_boards.model.BoardDAO;
 import jdbc_boards.vo.Board;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
