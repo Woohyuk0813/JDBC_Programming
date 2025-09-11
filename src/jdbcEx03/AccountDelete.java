@@ -9,7 +9,6 @@ import java.sql.SQLException;
 
 public class AccountDelete {
 
-
     public static void main(String[] args) throws SQLException {
         Connection connection = DBUtil.getConnection();
 
