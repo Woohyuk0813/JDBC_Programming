@@ -27,3 +27,7 @@ public class AccountSearch {
         }
     }
 }
+
+// 1. SP_MEMBER_LIST() 프로시저를 생성 : 전체 회원들의 정보를 출력하는 기능이다.
+// 2. Memberlist 클래스에서 callableStatement 방식으로 회원들의 리스트를 출력하는 기능을 구현하세요.
+

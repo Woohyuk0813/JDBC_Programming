@@ -27,8 +27,8 @@ public class BoardDAO {
             pstmt.setString(2, board.getBcontent());
             pstmt.setString(3, board.getBwriter());
             //5. 서버로 전송 후 결과값 (int 성공 1 실패 0)
-            int affected = pstmt.executeUpdate();
-            boolean ok = affected > 0;
+            int result = pstmt.executeUpdate();
+            boolean ok = result > 0;
 //            //생성된 PK를 Board객체에 반영
 //            try (ResultSet rs = pstmt.getGeneratedKeys()) {
 //                if (rs.next()) {
@@ -38,7 +38,6 @@ public class BoardDAO {
 //                }
 //            }
             return ok;
-
 
         } catch (SQLException e) {
             e.printStackTrace();
